@@ -12,9 +12,6 @@ Logger::Logger()
 {
 	pathLog = "LOG.txt";
 	isSave = false;
-
-	ofstream tmp(pathLog);
-	tmp.close();
 }
 
 string Logger::getTime()

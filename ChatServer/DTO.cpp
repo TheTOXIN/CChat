@@ -11,15 +11,6 @@ DTO::DTO()
 	messagesPath = "dto/messages.txt";
 	usersPath = "dto/users.txt";
 	tokensPath = "dto/tokens.txt";
-
-	ofstream tmp1(messagesPath);
-	tmp1.close();
-
-	ofstream tmp2(usersPath);
-	tmp2.close();
-
-	ofstream tmp3(tokensPath);
-	tmp3.close();
 }
 
 bool DTO::checkByNick(string user)
